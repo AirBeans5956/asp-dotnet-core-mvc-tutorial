@@ -15,7 +15,7 @@ public static class SeedData
                 DbContextOptions<MvcMovieContext>>()))
         {
             // Look for any movies.
-            if (context.Movie.Any())
+                if (context.Movie.Any())
             {
                 return;   // DB has been seeded
             }
